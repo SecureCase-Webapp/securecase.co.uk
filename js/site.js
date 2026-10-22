@@ -353,7 +353,7 @@
             ctx.textAlign = 'center';
             ctx.fillText('PROFILE', person.x * width, person.y * height - 24);
             if (phase >= 2) {
-                var steps = ['ABC', 'CPW', 'CPN', 'RO'];
+                var steps = ['LETTER', 'CPW', 'CPN', 'RO'];
                 var shown = phase >= 3 ? 4 : Math.min(4, Math.floor(progress * 4) + 1);
                 for (var s = 0; s < shown; s++) {
                     var bx = person.x * width + 40 + s * 58;
