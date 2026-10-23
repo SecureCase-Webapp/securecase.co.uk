@@ -1,4 +1,4 @@
-/* SecureCase public website — navigation, scroll reveals, counters and animated town-centre scenes. No external libraries. */
+/* SecureCase public website: navigation, scroll reveals, counters and animated town-centre scenes. No external libraries. */
 (function () {
     'use strict';
     var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
